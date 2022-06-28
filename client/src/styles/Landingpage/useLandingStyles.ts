@@ -42,13 +42,14 @@ const useLandingStyles = createStyles((theme) => ({
     },
     loginContainer : {
         maxWidth: 300,
-        padding: 10,
-        boxShadow: theme.shadows.md
+        boxShadow: theme.shadows.md,
+        padding: theme.spacing.md
     },
     button2: {
         marginTop: theme.spacing.sm,
         display: "block",
-        marginLeft: "auto",
+        width: 200,
+        margin: "0 auto",
     }
 }));
 
